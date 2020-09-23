@@ -1,0 +1,8 @@
+@import './__text/intro__text.css';
+@import './__author-date/intro__author-date.css';
+
+.intro__content-row {
+    max-width: 984px;
+    display: flex;
+    justify-content: space-between;
+}

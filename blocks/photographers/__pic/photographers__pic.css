@@ -1,0 +1,21 @@
+.photographers__pic {
+    width: 97px;
+    height: 97px;
+    border-radius: 48.5px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .photographers__pic {
+        order: 1;
+        margin-bottom: 16px;
+        align-self: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .photographers__pic {
+        order: 1;
+        margin-bottom: 16px;
+        align-self: center;
+    }
+}

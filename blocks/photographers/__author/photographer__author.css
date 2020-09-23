@@ -1,0 +1,23 @@
+.photographers__author {
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .photographers__author {
+        order: 2;
+        align-self: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .photographers__author {
+        order: 2;
+        align-self: center;
+    }
+}

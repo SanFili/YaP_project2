@@ -1,0 +1,19 @@
+
+    .photographers__item {
+        width: calc((100% - 19px*2)/3);
+        display: flex;
+        flex-direction: column;
+    }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .photographers__item {
+        width: calc(100% - 139px*2);;
+    }
+}
+
+@media (max-width: 767px) {
+    .photographers__item {
+        width: 100%;
+    }
+}
+

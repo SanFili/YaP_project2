@@ -1,0 +1,29 @@
+@import './__container/photographers__container.css';
+@import './__item/photographers__item.css';
+@import './__pic/photographers__pic.css';
+@import './__quote/photographers__quote.css';
+@import './__author/photographer__author.css';
+@import './__title/photographers__title.css';
+@import './__subtitle/photographers__subtitle.css';
+
+.photographers {
+    margin: 0 auto;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .photographers {
+        max-width: 928px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .photographers {
+        width: calc(100% - 54px*2);
+    }
+}
+
+@media (max-width: 767px) {
+    .photographers {
+        width: calc(100% - 32px);
+    }
+}

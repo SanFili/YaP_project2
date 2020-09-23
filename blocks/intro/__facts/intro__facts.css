@@ -1,0 +1,16 @@
+.intro__facts {
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .intro__facts {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

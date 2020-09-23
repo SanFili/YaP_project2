@@ -1,0 +1,10 @@
+@import './__title/emblem__title.css';
+@import './__arms/emblem__arms.css';
+@import './__item/emblem__item.css';
+@import './__image/emblem__image.css';
+@import './__city/emblem__city.css';
+
+.emblem {
+    margin: 0 auto;
+    display: none;
+}

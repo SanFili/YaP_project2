@@ -1,0 +1,14 @@
+.photographers__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+@media (max-width: 1023px) {
+    .photographers__container {
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+}
+

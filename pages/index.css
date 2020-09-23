@@ -1,0 +1,33 @@
+@import url('../blocks/header/header.css');
+@import url('../blocks/lead/lead.css');
+@import '../blocks/bold/bold.css';
+@import '../blocks/content-title/content-title.css';
+@import '../blocks/content-subtitle/content-subtitle.css';
+@import '../blocks/intro/intro.css';
+@import '../blocks/photo-grid/photo-grid.css';
+@import '../blocks/place/place.css';
+@import '../blocks/video/video.css';
+@import '../blocks/additional/additional.css';
+@import '../blocks/photographers/photographers.css';
+@import '../blocks/cover/cover.css';
+@import '../blocks/emblem/emblem.css';
+@import '../blocks/barentsburg/barentsburg.css';
+@import '../blocks/footer/footer.css';
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: normal;
+    src: url('../fonts/Inter-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-weight: bold;
+    src: url('../fonts/Inter-ExtraBold.woff2');
+}
+
+.page {
+    background: #1f1f1f;
+    max-width: 1184px;
+    margin: 0 auto;
+}

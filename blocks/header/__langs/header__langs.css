@@ -1,0 +1,14 @@
+@import url('./_selected/header__lang_selected.css');
+
+.header__langs {
+    align-self: flex-end;
+    width: 78px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+    .header__langs {
+        width: 76px; 
+    }
+}

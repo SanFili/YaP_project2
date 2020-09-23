@@ -1,0 +1,12 @@
+@import './__subtitle/additional__subtitle.css';
+@import './__title/additional__title.css';
+@import './__container/additional__container.css';
+@import './__item/additional__item.css';
+@import './__heading/additional__heading.css';
+@import './__text/additional__text.css';
+
+
+.additional {
+    margin: 102px auto; 
+    display: none;
+}

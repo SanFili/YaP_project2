@@ -1,0 +1,12 @@
+@import './__url-heading/website__url-heading.css';
+@import './__link/website__link.css';
+
+.website {
+    align-self: end;
+}
+
+@media (max-width: 767px) {
+    .website {
+        display: none;
+    }
+}

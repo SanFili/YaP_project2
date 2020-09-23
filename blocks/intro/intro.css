@@ -1,0 +1,23 @@
+@import './__title/intro__title.css';
+@import './__subtitle/intro__subtitle.css';
+@import './__content-row/intro__content-row.css';
+@import './__facts/intro__facts.css';
+@import './__fact/intro__fact.css';
+
+.intro {
+    margin: 80px auto 0;
+    max-width: 984px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .intro {
+        width: calc(100% - 48px);
+    }
+}
+
+@media (max-width: 767px) {
+    .intro {
+        margin: 64px auto 0;
+        width: calc(100% - 32px);
+    }
+}

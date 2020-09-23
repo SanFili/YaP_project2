@@ -1,0 +1,74 @@
+@import './__subtitle/cover__subtitle.css';
+@import './__title/cover__title.css';
+
+.cover {
+    width: 100%;
+    padding-bottom: 50.2%;
+    display: block;
+    position: relative;
+    margin: 102px auto 160px;
+    background-image: url(../cover/cover.jpg);
+    background-size: cover;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center; 
+}
+
+.cover::after {
+    content: " ";
+    width: 100%;
+    padding-bottom: 50.2%;
+    opacity: 0.3;
+    background-color: #2A2C2F;
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 1; 
+} 
+
+.cover:hover::after {
+    opacity: 0.8;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .cover {
+        padding-bottom: 54.9%;
+    }
+    .cover::after {
+        padding-bottom: 54.9%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .cover {
+        padding-bottom: 65.1%;
+        margin-bottom: 102px;
+    }
+    .cover::after {
+        padding-bottom: 65.1%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+    .cover {
+        padding-bottom: 72.5%; 
+        margin-bottom: 64px;
+        margin-top: 1px;
+    }
+    .cover::after {
+        padding-bottom: 72.5%;
+    }
+}
+
+@media (max-width: 374px) {
+    .cover {
+        padding-bottom: 67.5%; 
+        margin-bottom: 64px;
+        margin-top: 17px;
+    }
+    .cover::after {
+        padding-bottom: 67.5%;
+    }
+}

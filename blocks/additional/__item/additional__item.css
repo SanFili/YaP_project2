@@ -1,0 +1,42 @@
+.additional__item {
+    width: 284px;
+    height: 330px;
+    border-radius: 5px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.additional__item:nth-child(1) {
+    background-image: url(../__item/nvrssk.jpg);
+}
+
+.additional__item:nth-child(2) {
+    background-image: url(../__item/shickan.jpg);
+}
+
+.additional__item:nth-child(3) {
+    background-image: url(../__item/cherepovets.jpg);
+}
+
+.additional__item:nth-child(4) {
+    background-image: url(../__item/nikola.jpg);
+}
+
+.additional__item::after {
+    content: " ";
+    background-color: #000;
+    width: 284px;
+    height: 330px;
+    opacity: 0.5;
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+} 
+
+.additional__item:hover::after {
+    opacity: 0.8;
+}

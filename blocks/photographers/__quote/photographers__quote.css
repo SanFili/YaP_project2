@@ -1,0 +1,18 @@
+.photographers__quote {
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 42px 0 24px;
+}
+
+@media (max-width: 1023px) {
+    .photographers__quote {
+        order: 3;
+        font-size: 16px;
+        line-height: 23px;
+        margin: 24px 0 47px;
+    }
+}
